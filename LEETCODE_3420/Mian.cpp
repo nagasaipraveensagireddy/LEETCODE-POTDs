@@ -30,13 +30,13 @@ int main(){
         }
         long long res = obj.countNonDecreasingSubarrays(nums, k);
 
-        cout << "Test case: " << testCase << endl;
+        cout << "Test case: " << testCase <<endl;
 
         if(res == expected){
-            cout << "Status: PASS" << endl;
+            cout << "Status: PASS" <<endl;
         }
         else{
-            cout << "Status: FAIL" << endl;
+            cout << "Status: FAIL" <<endl;
         }
 
         cout<<"Expected Result: ";
