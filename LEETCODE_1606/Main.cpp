@@ -33,7 +33,7 @@ int main(){
         }
 
         if(!(file >> expectedSize)){
-            cout<<"Invalid expected data in test case :"<<testCase<<endl;
+            cout<<"Invalid expected data in test case:"<<testCase<<endl;
             return 1;
         }
 

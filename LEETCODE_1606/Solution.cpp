@@ -33,7 +33,7 @@ public:
             busyServers.push({busyTill, server});
         }
         int maxi = INT_MIN;
-        for(auto& it : handled) maxi = max(maxi, it);
+        for(int& it : handled) maxi = max(maxi, it);
         vector<int> res;
         for(int i = 0; i < k; i++){
             if(handled[i] == maxi) res.push_back(i);
