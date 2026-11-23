@@ -55,5 +55,3 @@ bbbaaa 0
 bbbbbaaaaa 0
 
 aaaaaaaaaabbbbbbbbbb 1
-
-abababababababababab 0

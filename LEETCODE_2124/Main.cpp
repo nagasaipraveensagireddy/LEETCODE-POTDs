@@ -27,10 +27,10 @@ int main(){
         }
 
         cout<<"Expected Result: ";
-        cout<<expected<<" ";
+        cout<<expected;
 
         cout<<"\nActual Result: ";
-        cout<<res<<" ";
+        cout<<res;
 
         cout<<"\n______________________________\n";
 
